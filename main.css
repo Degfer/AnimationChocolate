@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Chee Bleed";
+    src: url(
+        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Cheee_Variable1.woff2"
+    );
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: "Chee Bleed";
+    font-variation-settings: "temp" 1000;
+    animation: variation1 4s ease infinite alternate-reverse;
+    font-size: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 20px;
+    margin: 0;
+    color: #835230;
+}
+
+@keyframes variation1 {
+    0% {
+        font-variation-settings: "temp" 1000;
+    }
+    100% {
+        font-variation-settings: "tepm" 0;
+    }
+}
+
+h2 {
+    font-family: "Chee Bleed";
+    font-variation-settings: "temp" 1000;
+    animation: variation2 2s ease infinite alternate-reverse;
+    font-size: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 20px;
+    margin: 0;
+    color: #f4707a;
+}
+
+@keyframes variation2 {
+    0% {
+        font-variation-settings: "temp" 1000;
+    }
+    100% {
+        font-variation-settings: "tepm" 0;
+    }
+}
